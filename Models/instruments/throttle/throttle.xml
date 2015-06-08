@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ########################################
+
+Throttle quadrant and lever from Farman F40 
+
+##########################################-->
+
+<PropertyList>
+
+<!-- magneto -->
+
+<path>throttle.ac</path>
+
+<animation>
+    <type>rotate</type>
+    <object-name>throttle-lever</object-name>
+    <property>controls/engines/engine/throttle</property>
+    <factor> -49 </factor>
+    <center>
+   <x-m>0.0</x-m>
+   <y-m>-0.0</y-m>
+   <z-m>-0.0</z-m>
+  </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>        
+ 
+</PropertyList>
