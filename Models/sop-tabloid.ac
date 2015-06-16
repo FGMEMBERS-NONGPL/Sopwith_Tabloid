@@ -828,7 +828,7 @@ kids 0
 OBJECT poly
 name "LewisGun"
 loc 1.74791 3.13785 0.915121
-texture "C:/Program Files/FlightGear 3.4.0/data/Aircraft/Borel-Militaire/Models/Lewis3.png"
+texture "Aircraft/Borel-Militaire/Models/Lewis3.png"
 numvert 394
 -3.01046 -2.87096 -1.80203
 -2.57723 -2.87007 -1.53846
@@ -4229,7 +4229,7 @@ kids 0
 OBJECT poly
 name "drum"
 loc 1.74791 3.13785 0.915121
-texture "C:/Program Files/FlightGear 3.4.0/data/Aircraft/Borel-Militaire/Models/Lewis3.png"
+texture "Aircraft/Borel-Militaire/Models/Lewis3.png"
 numvert 92
 -2.58396 -2.76568 -1.50776
 -2.59311 -2.77281 -1.49184
