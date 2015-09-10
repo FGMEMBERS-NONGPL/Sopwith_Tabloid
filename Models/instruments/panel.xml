@@ -3,26 +3,13 @@
 <PropertyList>
 
 
-  <!-- Fuel -->
-  <model>
-    <path>Aircraft/Sopwith_Tabloid/Models/instruments/fuel/fuel.xml</path>
-    <offsets>
-      <x-m>  -0.802 </x-m>
-      <y-m>  0.18 </y-m>
-      <z-m>  0.441 </z-m>
-      <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>   -1.000 </pitch-deg>
-      <heading-deg> 0.000 </heading-deg>
-    </offsets>
-  </model>
-
   <!-- Fuel valve -->
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/fuelvalve/fuel-valve.xml</path>
     <offsets>
-      <x-m>  -0.834 </x-m>
-      <y-m>  0.158 </y-m>
-      <z-m>  0.319 </z-m>
+      <x-m>  -0.732</x-m>
+      <y-m>  0.194  </y-m>
+      <z-m>  0.244</z-m>
       <roll-deg>    0.000 </roll-deg>
       <pitch-deg>   0.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
@@ -33,11 +20,11 @@
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/tach/tach.xml</path>
     <offsets>
-      <x-m>  -0.78 </x-m>
+      <x-m>  -0.658 </x-m>
       <y-m>  0.000 </y-m>
-      <z-m>  0.521 </z-m>
+      <z-m>  0.49 </z-m>
       <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>   -6.000 </pitch-deg>
+      <pitch-deg>  -4.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
     </offsets>
   </model>
@@ -46,11 +33,11 @@
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/magneto/magneto.xml</path>
     <offsets>
-      <x-m>  -0.785 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.695 </z-m>
+      <x-m>  -0.658 </x-m>
+      <y-m>  0.00 </y-m>
+      <z-m>  0.383 </z-m>
       <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>   -6.000 </pitch-deg>
+      <pitch-deg>   -4.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
     </offsets>
   </model>
@@ -59,9 +46,9 @@
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/throttle/throttle.xml</path>
     <offsets>
-      <x-m>  -0.79 </x-m>
-      <y-m>  -0.270 </y-m>
-      <z-m>  0.255 </z-m>
+      <x-m>  -0.5526 </x-m>
+      <y-m>  -0.427 </y-m>
+      <z-m>  0.0255 </z-m>
       <roll-deg>    0.000 </roll-deg>
       <pitch-deg>   0.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
@@ -72,11 +59,11 @@
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/alt/alt.xml</path>
     <offsets>
-      <x-m>  -0.775 </x-m>
-      <y-m>  -0.135 </y-m>
-      <z-m>  0.601 </z-m>
+      <x-m>  -0.651 </x-m>
+      <y-m>  -0.165 </y-m>
+      <z-m>  0.401 </z-m>
       <roll-deg>    0.000 </roll-deg>
-      <pitch-deg>   -6.000 </pitch-deg>
+      <pitch-deg> -4.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
     </offsets>
   </model>
@@ -85,9 +72,9 @@
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/compass/compass.xml</path>
     <offsets>
-      <x-m>  -0.695 </x-m>
-      <y-m> -0.195 </y-m>
-      <z-m>  0.200 </z-m>
+      <x-m>  -0.515 </x-m>
+      <y-m> -0.375 </y-m>
+      <z-m>  -0.180 </z-m>
       <roll-deg>    0.000 </roll-deg>
       <pitch-deg>   0.000 </pitch-deg>
       <heading-deg> 0.000 </heading-deg>
@@ -98,12 +85,12 @@
   <model>
     <path>Aircraft/Sopwith_Tabloid/Models/instruments/asi/asi.xml</path>
     <offsets>
-      <x-m>  -0.775 </x-m>
-      <y-m>  0.107 </y-m>
-      <z-m>  0.601 </z-m>
+      <x-m>  -0.651 </x-m>
+      <y-m>  0.17 </y-m>
+      <z-m>  0.401 </z-m>
       <roll-deg>      0.000 </roll-deg>
-      <pitch-deg>   -6.000 </pitch-deg>
-      <heading-deg> -0.000 </heading-deg>
+      <pitch-deg>   -4.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
     </offsets>
   </model>
 

@@ -28,6 +28,30 @@
     </offsets>
   </model>
 
+   <model>
+    <path>Aircraft/Sopwith_Tabloid/Models/instruments/panel.xml</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> 0.0 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Sopwith_Tabloid/Models/Effects/exhaust/exhaustsmoke.xml</path>
+    <offsets>
+      <x-m> -1.386 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m> -0.43 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>  -85 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
 
   <!-- ground dust -->
   <model>

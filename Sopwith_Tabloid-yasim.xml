@@ -13,7 +13,7 @@
     Height: 2.54 m (8 ft 4 in)
     Wing area: 23.0 m2 (247 ft2)
     Gross weight: 750 kg (1,650 lb)
-    Powerplant: 1 x Gnome Monosoupape 7C, 59 kW (80 hp)
+    Powerplant: 1 x Gnome Monosoupape or Type A, 59 kW (80 hp)
 
 Performance
 
@@ -32,7 +32,7 @@ Armament
     <control-setting axis="/controls/engines/engine[0]/mixture" value="1.0"/>
   </approach>
   
-  <cruise speed="93" alt="5000" fuel="0.79" >
+  <cruise speed="90" alt="1000" fuel="0.79" >
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.9" />
     <control-setting axis="/controls/engines/engine[0]/mixture" value="0.78" />
   </cruise>
@@ -116,11 +116,11 @@ General characteristics
 
     Type: 7-cylinder, single-row, rotary engine
     Bore: 110 mm (4.3 in)
-    Stroke: 150 mm (5.9 in)
-    Displacement: 12.8 L (781.63 cu in)
+    Stroke: 150 mm (5.91 in)
+    Displacement: 12.8 L (609.63 cu in)
     Length: 107.4 cm (42.3 in)
-    Diameter: 95 cm (37.4 in)
-    Dry weight: 137.4 kg (303 lb)
+    Diameter: 87 cm (35.4 in)
+    Dry weight: 137.4 kg (207 lb)
 
 Components
 
@@ -137,26 +137,25 @@ Performance
   -->
 
 <propeller x="1.487" y="0" z="0.00"
-             radius="1.115"
-             mass="320"
-             moment="25"
-             gyro="250"
+             radius="1.125"
+             mass="207"
+             moment="23"
              blades="2"
-             cruise-power="69"
-             cruise-alt="5000"
-             cruise-speed="94"
-             cruise-rpm="1240"
+             cruise-power="74"
+             cruise-alt="1000"
+             cruise-speed="90"
+             cruise-rpm="1170"
              takeoff-power="80"
-             takeoff-rpm="1300"> 
+             takeoff-rpm="1200"> 
            <actionpt x="2.162" y="0" z="0.00"/>
              <piston-engine eng-power="80"
-                            eng-rpm="1300"
-                            alt="5000"
-                            bore="4.3"
-                            stroke="5.9"
+                            eng-rpm="1200"
+                            alt="1000"
+                            bore="4.33"
+                            stroke="5.91"
                             compression-ratio="4.0"
                             min-throttle="0.05"
-                            displacement="781.2"/>
+                            displacement="609.2"/>
            <control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
            <control-input axis="/controls/engines/engine[0]/starter" control="STARTER"/>
            <control-input axis="/controls/engines/engine[0]/magnetos" control="MAGNETOS"/>
